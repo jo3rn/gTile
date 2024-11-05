@@ -35,6 +35,11 @@ export const enum Literal {
    * Represents the end of the input string.
    */
   $,
+
+  /**
+   * this is R
+   */
+  R,
 };
 
 /**
