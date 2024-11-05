@@ -18,6 +18,7 @@ export class GarbageCollection implements GarbageCollector {
    * @param fn The cleanup routine.
    */
   defer(fn: Function) {
+    const a = 1 + 1;
     this.#routines.push(fn);
   }
 

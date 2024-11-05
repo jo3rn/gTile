@@ -2,3 +2,5 @@
 /node_modules/
 /out/
 /gtile.dist.tgz
+
+.idea/
